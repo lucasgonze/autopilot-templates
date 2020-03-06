@@ -20,5 +20,17 @@ To create a new SMS group:
 2. Lastly add the number of the service and send the first message press enter 
 3. The chatbot will send a message out to the whole group to start a new thread
 
-This code is work in progress. It is not yet working.
+UX of the bot will be modeled on Mailman. Commands will be based on email listservs:
+
+Getting Help For Available Commands
+
+help: a list of available commands will be sent
+subscribe <phone number>: add a person to the group
+unsubscribe: leave the group
+quit: leave the group
+remove me: leave the group
+who: get a list of group members
+info: learn who created the list
+
+This is a concept app for the moment. There is no code yet.
 
