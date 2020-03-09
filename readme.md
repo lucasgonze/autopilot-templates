@@ -17,8 +17,16 @@ This project will use the Twilio API to improve on SMS groups:
 
 To create a new SMS group: 
 1. Start normal group chat by adding number after number after number
-2. Lastly add the number of the service and send the first message press enter 
-3. The chatbot will send a message out to the whole group to start a new thread
+2. Add the number of the service to the participants
+3. Send the first message, press enter 
+4. The chatbot will send a message out to the whole group to start a new thread
+
+Note that there would then be two threads. This problem could be neutralized if the chat-based UX was supplemented by a mobile app. The mobile app would intercept outgoing group SMS chats and replace them with sms-listserv chats. 
+
+The mobile app could also enhance participation by adding GUI affordances. GUI features:
+
+* removal from a thread, even if not created via sms-listserv
+* addition of metadata like name and email address
 
 UX of the bot will be modeled on Mailman. Commands will be based on email listservs:
 
@@ -29,6 +37,8 @@ UX of the bot will be modeled on Mailman. Commands will be based on email listse
 * remove me: leave the group
 * who: get a list of group members
 * info: learn who created the list
+
+
 
 This is a concept app for the moment. There is no code yet.
 
